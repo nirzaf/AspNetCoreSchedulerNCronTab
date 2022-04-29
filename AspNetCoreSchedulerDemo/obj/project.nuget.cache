@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9OgvziuYhrHC+D1S3DXNlddfF9CGP+wxAeXLo+qAKktOCr/YzhTNaa2VDqLy4KElnwoakaYji2MfIJWY4mw2tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nirza\\RiderProjects\\AspNetCore-Scheduler-Demo-master\\AspNetCoreSchedulerDemo\\AspNetCoreSchedulerDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nirza\\.nuget\\packages\\ncrontab\\3.3.1\\ncrontab.3.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6HVxyA/y3GgE2yYsEwEw76xzmzHTuhrRZKoQDTzplmQ=",
+  "Source": "AspNetCoreSchedulerDemo",
+  "BasePath": "_content/AspNetCoreSchedulerDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

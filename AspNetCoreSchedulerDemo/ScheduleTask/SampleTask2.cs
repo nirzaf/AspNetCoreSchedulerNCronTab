@@ -16,15 +16,13 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
 
         }
 
-        protected override string Schedule => "*/2 * * * *"; // every 1 min 
+        protected override string Schedule => "* * * * *"; // every 1 min 
 
         public override Task ProcessInScope(IServiceProvider scopeServiceProvider)
         {
             Console.WriteLine("SampleTask2 : " + DateTime.Now.ToString(CultureInfo.InvariantCulture));
-
             IReportGenerator reportGenerator = scopeServiceProvider.GetRequiredService<IReportGenerator>();
             reportGenerator.GenerateDailyReport();
-
             return Task.CompletedTask;
         }
     }

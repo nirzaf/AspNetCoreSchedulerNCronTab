@@ -21,3 +21,13 @@ C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedule
 C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\obj\Debug\net6.0\AspNetCoreSchedulerDemo.pdb
 C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\obj\Debug\net6.0\AspNetCoreSchedulerDemo.genruntimeconfig.cache
 C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\obj\Debug\net6.0\ref\AspNetCoreSchedulerDemo.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\nirza\RiderProjects\AspNetCore-Scheduler-Demo-master\AspNetCoreSchedulerDemo\bin\Debug\net6.0\Serilog.Sinks.File.dll

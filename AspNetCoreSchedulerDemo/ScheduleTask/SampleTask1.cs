@@ -3,6 +3,7 @@ using System;
 using System.Globalization;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace AspNetCoreSchedulerDemo.ScheduleTask
 {
@@ -10,7 +11,7 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
     {
         public SampleTask1(IServiceScopeFactory serviceScopeFactory) : base(serviceScopeFactory)
         {
-                
+
         }
 
         protected override string Schedule => "* * * * *"; // every 1 min 
@@ -18,6 +19,7 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
         public override async Task ProcessInScope(IServiceProvider scopeServiceProvider)
         {
             Console.WriteLine("SampleTask1 : " + DateTime.Now.ToString(CultureInfo.InvariantCulture));
+           //_logger.LogInformation("SampleTask1 : " + DateTime.Now.ToString(CultureInfo.InvariantCulture));
             // return Task.CompletedTask;
             await Task.Run(() => Task.CompletedTask);
         }

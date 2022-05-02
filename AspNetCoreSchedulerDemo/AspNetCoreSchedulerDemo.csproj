@@ -6,6 +6,11 @@
 
 	<ItemGroup>
 		<PackageReference Include="ncrontab" Version="3.3.1" />
+		<PackageReference Include="Serilog.AspNetCore" Version="6.0.0-dev-00265" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Controllers\" />
 	</ItemGroup>
 
 

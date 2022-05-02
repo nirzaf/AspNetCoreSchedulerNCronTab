@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AspNetCoreSchedulerDemo.BackgroundService;
 using AspNetCoreSchedulerDemo.Services;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace AspNetCoreSchedulerDemo.ScheduleTask
 {
@@ -13,7 +14,6 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
     {
         public SampleTask2(IServiceScopeFactory serviceScopeFactory) : base(serviceScopeFactory)
         {
-
         }
 
         protected override string Schedule => "* * * * *"; // every 1 min 
@@ -21,6 +21,7 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
         public override Task ProcessInScope(IServiceProvider scopeServiceProvider)
         {
             Console.WriteLine("SampleTask2 : " + DateTime.Now.ToString(CultureInfo.InvariantCulture));
+            //_logger.LogInformation("SampleTask2 : " + DateTime.Now.ToString(CultureInfo.InvariantCulture));
             IReportGenerator reportGenerator = scopeServiceProvider.GetRequiredService<IReportGenerator>();
             reportGenerator.GenerateDailyReport();
             return Task.CompletedTask;
